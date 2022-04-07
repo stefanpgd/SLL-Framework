@@ -1,155 +1,155 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="surface.cpp">
+    <ClCompile Include="Source\surface.cpp">
       <Filter>template code</Filter>
     </ClCompile>
-    <ClCompile Include="template.cpp">
+    <ClCompile Include="Source\template.cpp">
       <Filter>template code</Filter>
     </ClCompile>
-    <ClCompile Include="precomp.cpp">
+    <ClCompile Include="Source\precomp.cpp">
       <Filter>template code</Filter>
     </ClCompile>
-    <ClCompile Include="Utilities.cpp">
+    <ClCompile Include="Source\Utilities.cpp">
       <Filter>Utilities</Filter>
     </ClCompile>
-    <ClCompile Include="Ray.cpp" />
-    <ClCompile Include="PrimitiveList.cpp">
+    <ClCompile Include="Source\Ray.cpp" />
+    <ClCompile Include="Source\PrimitiveList.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="AreaLight.cpp">
+    <ClCompile Include="Source\AreaLight.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="Ellipsoid.cpp">
+    <ClCompile Include="Source\Ellipsoid.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="PointLight.cpp">
+    <ClCompile Include="Source\PointLight.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="Sphere.cpp">
+    <ClCompile Include="Source\Sphere.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="SolidColor.cpp">
+    <ClCompile Include="Source\SolidColor.cpp">
       <Filter>Textures</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteTexture.cpp">
+    <ClCompile Include="Source\SpriteTexture.cpp">
       <Filter>Textures</Filter>
     </ClCompile>
-    <ClCompile Include="CircleTexture.cpp">
+    <ClCompile Include="Source\CircleTexture.cpp">
       <Filter>Textures</Filter>
     </ClCompile>
-    <ClCompile Include="CheckerTexture.cpp">
+    <ClCompile Include="Source\CheckerTexture.cpp">
       <Filter>Textures</Filter>
     </ClCompile>
-    <ClCompile Include="BVH.cpp">
+    <ClCompile Include="Source\BVH.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="Primitive.cpp">
+    <ClCompile Include="Source\Primitive.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="Light.cpp">
+    <ClCompile Include="Source\Light.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="Texture.cpp">
+    <ClCompile Include="Source\Texture.cpp">
       <Filter>Textures</Filter>
     </ClCompile>
-    <ClCompile Include="Material.cpp" />
-    <ClCompile Include="SkydomeManager.cpp">
+    <ClCompile Include="Source\Material.cpp" />
+    <ClCompile Include="Source\SkydomeManager.cpp">
       <Filter>Manager</Filter>
     </ClCompile>
-    <ClCompile Include="SceneLoader.cpp">
+    <ClCompile Include="Source\SceneLoader.cpp">
       <Filter>Manager</Filter>
     </ClCompile>
-    <ClCompile Include="Renderer.cpp">
+    <ClCompile Include="Source\Renderer.cpp">
       <Filter>Rendering</Filter>
     </ClCompile>
-    <ClCompile Include="Color.cpp">
+    <ClCompile Include="Source\Color.cpp">
       <Filter>Rendering</Filter>
     </ClCompile>
-    <ClCompile Include="AABB.cpp">
+    <ClCompile Include="Source\AABB.cpp">
       <Filter>Primitives</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
+    <ClCompile Include="Source\Camera.cpp">
       <Filter>Rendering</Filter>
     </ClCompile>
-    <ClCompile Include="game.cpp" />
+    <ClCompile Include="Source\game.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="surface.h">
+    <ClInclude Include="Source\surface.h">
       <Filter>template code</Filter>
     </ClInclude>
-    <ClInclude Include="template.h">
+    <ClInclude Include="Source\template.h">
       <Filter>template code</Filter>
     </ClInclude>
-    <ClInclude Include="Primitive.h">
+    <ClInclude Include="Source\Primitive.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="PrimitiveList.h">
+    <ClInclude Include="Source\PrimitiveList.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="Sphere.h">
+    <ClInclude Include="Source\Sphere.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="Ellipsoid.h">
+    <ClInclude Include="Source\Ellipsoid.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="precomp.h">
+    <ClInclude Include="Source\precomp.h">
       <Filter>template code</Filter>
     </ClInclude>
-    <ClInclude Include="Texture.h">
+    <ClInclude Include="Source\Texture.h">
       <Filter>Textures</Filter>
     </ClInclude>
-    <ClInclude Include="Utilities.h">
+    <ClInclude Include="Source\Utilities.h">
       <Filter>Utilities</Filter>
     </ClInclude>
-    <ClInclude Include="Ray.h" />
-    <ClInclude Include="PointLight.h">
+    <ClInclude Include="Source\Ray.h" />
+    <ClInclude Include="Source\PointLight.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="AreaLight.h">
+    <ClInclude Include="Source\AreaLight.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="Light.h">
+    <ClInclude Include="Source\Light.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="SolidColor.h">
+    <ClInclude Include="Source\SolidColor.h">
       <Filter>Textures</Filter>
     </ClInclude>
-    <ClInclude Include="SpriteTexture.h">
+    <ClInclude Include="Source\SpriteTexture.h">
       <Filter>Textures</Filter>
     </ClInclude>
-    <ClInclude Include="CircleTexture.h">
+    <ClInclude Include="Source\CircleTexture.h">
       <Filter>Textures</Filter>
     </ClInclude>
-    <ClInclude Include="CheckerTexture.h">
+    <ClInclude Include="Source\CheckerTexture.h">
       <Filter>Textures</Filter>
     </ClInclude>
-    <ClInclude Include="AllTextures.h">
+    <ClInclude Include="Source\AllTextures.h">
       <Filter>Textures</Filter>
     </ClInclude>
-    <ClInclude Include="BVH.h">
+    <ClInclude Include="Source\BVH.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="Material.h" />
-    <ClInclude Include="SkydomeManager.h">
+    <ClInclude Include="Source\Material.h" />
+    <ClInclude Include="Source\SkydomeManager.h">
       <Filter>Manager</Filter>
     </ClInclude>
-    <ClInclude Include="SceneLoader.h">
+    <ClInclude Include="Source\SceneLoader.h">
       <Filter>Manager</Filter>
     </ClInclude>
-    <ClInclude Include="Renderer.h">
+    <ClInclude Include="Source\Renderer.h">
       <Filter>Rendering</Filter>
     </ClInclude>
-    <ClInclude Include="Color.h">
+    <ClInclude Include="Source\Color.h">
       <Filter>Rendering</Filter>
     </ClInclude>
-    <ClInclude Include="AABB.h">
+    <ClInclude Include="Source\AABB.h">
       <Filter>Primitives</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="Source\Camera.h">
       <Filter>Rendering</Filter>
     </ClInclude>
-    <ClInclude Include="game.h" />
+    <ClInclude Include="Source\game.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="template code">

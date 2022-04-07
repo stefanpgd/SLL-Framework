@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+Release
+.vs/SLL-Framework/v16/.suo
+.vs/SLL-Framework/v16/Browse.VC.db
+SLL-Framework_x64.pdb

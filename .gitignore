@@ -34,3 +34,6 @@ Release
 .vs/SLL-Framework/v16/.suo
 .vs/SLL-Framework/v16/Browse.VC.db
 SLL-Framework_x64.pdb
+.vs/SLL-Framework/v16/ipch
+Debug
+*.pdb

@@ -5,7 +5,7 @@
 #include "AllTextures.h"
 #include "SDL.h"
 
-#define DiffuseReflection false
+#define DiffuseReflection true
 
 namespace SLL
 {

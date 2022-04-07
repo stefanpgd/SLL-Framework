@@ -1,0 +1,95 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0040C1C0 -allChunksReserved -il C:\\Users\\stefa\\AppData\\Local\\Temp\\_CL_0aa99daaast -typedil -f Utilities.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\School\\Perforce\\Stefan210020\\Year 1\\Block B\\SLL-Framework\\lib -I C:\\School\\Perforce\\Stefan210020\\Year 1\\Block B\\SLL-Framework\\lib\\OpenGL -I C:\\School\\Perforce\\Stefan210020\\Year 1\\Block B\\SLL-Framework\\lib\\SDL2-2.0.3\\include -I C:\\School\\Perforce\\Stefan210020\\Year 1\\Block B\\SLL-Framework\\lib\\freeimage\\inc -nologo -W 3 -diagnostics:column -Og -Oy -Oi -Ot -DCODE_ANALYSIS -DWIN64 -DNDEBUG -D_WINDOWS -D_CRT_SECURE_NO_DEPRECATE -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -fpfast -D_M_FP_FAST -Zc:wchar_t -Zc:forScope -std:c++17 -Yuprecomp.h -FpRelease\\SLL-Framework_x64.pch -FoRelease\\Utilities.obj -FdRelease\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\School\\Perforce\\Stefan210020\\Year 1\\Block B\\SLL-Framework -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/vector3.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e61bc4425f8e6fbd663058b3e9f0dcf6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/precomp.h"
+          },
+          "hashes": {
+            "md5": "85bd2d5eaa0d273502bd36edec4e03e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/template.h"
+          },
+          "hashes": {
+            "md5": "d2a7d237e4f500d71be0e27304114bc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/surface.h"
+          },
+          "hashes": {
+            "md5": "6d9563c85f6ee538825477dfdbd53d57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/vector3.h"
+          },
+          "hashes": {
+            "md5": "427a6d2c29186f9662eaa96202f8338b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/ray.h"
+          },
+          "hashes": {
+            "md5": "6f6d3f4e0b4d9326fec09d55cebbdd97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/utilities.h"
+          },
+          "hashes": {
+            "md5": "5e7f333e6b8ffdc8381082117d2691ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/school/perforce/stefan210020/year 1/block b/sll-framework/utilities.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e04d889f44de218bf12a15994da2282b"
+          }
+        }
+      ]
+    }
+  ]
+}
